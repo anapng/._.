@@ -1,3 +1,13 @@
+package com.sc303.mavenproject1;
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Laboratorios
+ */
+public class Mavenproject1 {
+    
     public static void main(String[] args) {
         
         //Variables
