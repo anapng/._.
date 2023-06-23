@@ -1,1 +1,16 @@
-
+public class Usuario {
+    public String nombreUs ="";
+    private String contra = "";
+    
+    public String getContra(){
+        return contra;
+    }
+    public void setcontra(String contra){
+        int conNum = Integer.parseInt(contra);
+        if (conNum < 8){
+            System.out.println("Su contraseña debe contar al menos con 8 caracteres");
+        }else{
+            this.contra = contra;
+        }    
+    }
+}
